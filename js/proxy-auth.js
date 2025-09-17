@@ -61,7 +61,7 @@ async function addAuthToProxyUrl(url) {
     try {
         const hash = await getPasswordHash();
         if (!hash) {
-            console.warn('无法获取密码哈希，代理请求可能失败');
+            //console.warn('无法获取密码哈希，代理请求可能失败');
             return url;
         }
         
@@ -120,7 +120,7 @@ window.addEventListener('storage', (e) => {
 
 // 导出函数
 window.ProxyAuth = {
-    addAuthToProxyUrl,
+    //addAuthToProxyUrl,
     validateProxyAuth,
     clearAuthCache,
     getPasswordHash

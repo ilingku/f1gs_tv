@@ -48,10 +48,6 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    heimuer: {
-        api: 'https://api.yzzy-api.com/inc/api_mac10.php',
-        name: '优质资源',
-    },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
@@ -64,7 +60,7 @@ const API_SITES = {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    hwba: {
+    hhzy: {
         api: 'https://hhzyapi.com/api.php/provide/vod',
         name: '豪华资源',
     },
@@ -116,27 +112,6 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
-    },
-    huangcang: {
-        api: 'https://hsckzy888.com/api.php/provide/vod',
-        name: 'HS仓库',
-        adult: true,
-        detail: 'https://hsckzy.vip'
-    },
-    lsb: {
-        api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
-        adult: true
-    },
-    r155: {
-        api: 'https://155api.com',
-        name: '155资源',
-        adult: true
-    },
-    souav: {
-        api: 'https://api.souavzy.vip',
-        name: 'souav资源',
-        adult: true
     },
 };
 
