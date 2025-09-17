@@ -207,5 +207,3 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
-.text-gray-300 {--tw-text-opacity: 1;background: #333;color: rgb(209 213 219);}
-.transition{background: rgb(17 17 17);}

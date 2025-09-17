@@ -9,6 +9,10 @@
       "destination": "/index.html"
     },
     {
+      "source": "/privacy.html",
+      "destination": "/privacy.html"
+    },
+    {
       "source": "/player.html",
       "destination": "/player.html"
     },
