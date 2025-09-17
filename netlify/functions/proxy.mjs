@@ -260,6 +260,7 @@ export const handler = async (event, context) => {
     logDebug(`Processing proxy request for target: ${targetUrl}`);
 
     try {
+	/*
         // 验证鉴权
         const isValidAuth = validateAuth(event);
         if (!isValidAuth) {
@@ -269,6 +270,7 @@ export const handler = async (event, context) => {
                 body: JSON.stringify({ success: false, error: "Forbidden: Invalid auth credentials." }),
             };
         }
+		*/
 
         // Fetch Original Content (Pass Netlify event headers)
         const { content, contentType, responseHeaders } = await fetchContentWithType(targetUrl, event.headers);
