@@ -23,12 +23,12 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8',
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com', 
     },
     ruyi: {
-        api: 'http://cj.rycjapi.com/api.php/provide/vod',
+        api: 'http://cj.rycjapi.com/api.php/provide/vod/from/rym3u8',
         name: '如意资源',
     },
     bfzy: {
@@ -44,7 +44,7 @@ const API_SITES = {
         name: '小猫咪资源',
     },
     ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
+        api: 'http://ffzy5.tv/api.php/provide/vod/from/ffm3u8',
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
@@ -61,11 +61,11 @@ const API_SITES = {
         name: '卧龙资源',
     }, 
     hhzy: {
-        api: 'https://hhzyapi.com/api.php/provide/vod',
+        api: 'https://hhzyapi.com/api.php/provide/vod/from/hhm3u8',
         name: '豪华资源',
     },
     lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
         name: '量子资源站'
     },
     ckzy: {
@@ -73,21 +73,17 @@ const API_SITES = {
          name: 'CK资源',
     },
     jisu: {
-        api: 'https://jszyapi.com/api.php/provide/vod',
+        api: 'https://jszyapi.com/api.php/provide/vod/from/jsm3u8',
         name: '极速资源',
         detail: 'https://jszyapi.com', 
     },
     dbzy: {
-        api: 'https://dbzy.tv/api.php/provide/vod',
+        api: 'https://dbzy.tv/api.php/provide/vod/from/dbm3u8',
         name: '豆瓣资源',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
-    },
-    mdzy: {
-        api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
@@ -109,9 +105,9 @@ const API_SITES = {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
     },
-    ikun: {
-        api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
+    hongniuzy: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '红牛资源'
     },
 };
 
