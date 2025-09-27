@@ -1,6 +1,5 @@
 // 全局常量配置
 const PROXY_URL = '/proxy/';    // 适用于 Cloudflare, Netlify (带重写), Vercel (带重写)
-// const HOPLAYER_URL = 'https://hoplayer.com/index.html';
 const SEARCH_HISTORY_KEY = 'videoSearchHistory';
 const MAX_HISTORY_ITEMS = 5;
 
@@ -39,10 +38,6 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    xiaomaomi: {
-        api: 'https://zy.xmm.hk/api.php/provide/vod',
-        name: '小猫咪资源',
-    },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod/from/ffm3u8',
         name: '非凡影视',
@@ -66,11 +61,7 @@ const API_SITES = {
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
-        name: '量子资源站'
-    },
-    ckzy: {
-         api: 'https://ckzy.me/api.php/provide/vod',
-         name: 'CK资源',
+        name: '量子资源'
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod/from/jsm3u8',
@@ -89,10 +80,6 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
-    },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度云资源'
@@ -108,7 +95,7 @@ const API_SITES = {
     hongniuzy: {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
         name: '红牛资源'
-    },
+    }
 };
 
 // 定义合并方法
